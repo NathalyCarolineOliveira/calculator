@@ -6,6 +6,7 @@ function insert(num)
         function clean()
         {
             document.getElementById('resultado').innerHTML = "";
+            
         }
         function back()
         {
@@ -17,10 +18,12 @@ function insert(num)
             var resultado = document.getElementById('resultado').innerHTML;
             if(resultado)
             {
-                document.getElementById('resultado').innerHTML = eval(resultado);
+                document.querySelector("#history").innerHTML = eval(resultado);
             }
             else
             {
                 document.getElementById('resultado').innerHTML = "Nada..."
             }
         }
+        
+

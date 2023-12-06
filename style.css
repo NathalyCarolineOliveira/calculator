@@ -40,4 +40,5 @@
     color: black;
     text-align: right;
     padding: 5px;
+    overflow :  hidden; 
 }
