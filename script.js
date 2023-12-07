@@ -6,6 +6,7 @@ function insert(num)
         function clean()
         {
             document.getElementById('resultado').innerHTML = "";
+            document.querySelector('#history').innerHTML = "";
             
         }
         function back()
